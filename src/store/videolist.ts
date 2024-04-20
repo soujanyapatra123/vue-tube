@@ -38,7 +38,7 @@ export const useVideoStore = defineStore('video', () => {
   const videoList = ref<VideoList[]>([])
   const limit = ref<number>(9)
   const searchText = ref<string>('')
-  const YOUR_API_KEY = ref<string>('AIzaSyAbmQ1ZdsmCgWYuQHbTEPuzomWGOJEv3YY')
+  const YOUR_API_KEY = ref<string>(import.meta.env.VITE_APP_GOOGLE_AUTH_ID)
   const nextPageToken = ref<string>('')
   const startLoading = ref<boolean>(false)
   const trendingVideos = ref<any>([])
