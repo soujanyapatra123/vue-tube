@@ -1,0 +1,61 @@
+{
+  "randomText": "Random user list instead of channel list (seems yt not providing the list channel)",
+  "trending": "Trending",
+  "sort": "Sort",
+  "now": "Now",
+  "music": "Music",
+  "gaming": "Gaming",
+  "movies": "Movies",
+  "llc": "© 2024 Google LLC",
+  "about": "About",
+  "press": "Press",
+  "copyright": "Copyright",
+  "contactUs": "Contact us",
+  "creators": "Creators",
+  "advertise": "Advertise",
+  "developers": "Developers",
+  "terms": "Terms",
+  "privacy": "Privacy",
+  "policy": "Policy",
+  "safety": "Safety",
+  "howYouTubeWorks": "How YouTube works",
+  "testNewFeatures": "Test New Features",
+  "switchAccount": "Switch account",
+  "showMore": "Show more",
+  "subscribe": "Subscribe",
+  "watchVideoDesc": "2 videos No views Updated today",
+  "shuffle": "Shuffle",
+  "playAll": "Play all",
+  "removeWatchedVideos": "Remove watched videos",
+  "addVideos": "Add videos",
+  "you": {
+    "googleAccount": "Google Account",
+    "createAChanel": "Create a chanel",
+    "switchAccount": "Switch account",
+    "history": "History",
+    "watchLater": "Watch Later"
+  },
+  "history": {
+    "watchHistory": "Watch history",
+    "clearAllWatchHistory": "Clear all watch history",
+    "pauseWatchHistory": "Pause watch history",
+    "manageAllHistory": "Manage all history",
+    "comments": "Comments",
+    "communityPost": "Community post",
+    "liveChat": "Live chat"
+  },
+  "like": {
+    "dateAddedNewest": "Date added (newest)",
+    "dateAddedOldest": "Date added (oldest)",
+    "mostPopular": "Most popular",
+    "datePublishedNewest": "Date published (newest)",
+    "datePublishedOldest": "Date published (oldest)"
+  },
+  "watch": {
+    "subscriber": "subscriber",
+    "subscribe": "Subscribe",
+    "share": "Share",
+    "download": "Download",
+    "save": "Save"
+  }
+}

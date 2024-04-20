@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/src/assets/images/png/YouTube Play Logo Png.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue tube</title>
+  <link rel="stylesheet" type="text/css" href="/loader.css" />
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="loading-bg">
+      <div class="loading-logo">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="60"
+          viewBox="0 0 96.7 111" style="enable-background:new 0 0 96.7 111;" xml:space="preserve">
+          <style type="text/css">
+            .st0{fill:#FFFFFF;}
+          </style>
+          <path class="st0" d="M32.7,17.5l63.4-0.1V0.9H13.8c-7.2,0-13,5.9-13,13v96.3h19.3v-71l76,71V85.5L20.2,16.3v-1.2L32.7,17.5z"/>
+        </svg>
+      </div>
+      <div class="loading">
+        <div class="effect-1 effects"></div>
+        <div class="effect-2 effects"></div>
+        <div class="effect-3 effects"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+  <script>
+    const loaderColor = localStorage.getItem('sneat-initial-loader-bg') || '#FFFFFF'
+    const primaryColor = localStorage.getItem('sneat-initial-loader-color') || '#696CFF'
+
+    if (loaderColor)
+      document.documentElement.style.setProperty('--initial-loader-bg', loaderColor)
+
+    if (primaryColor)
+      document.documentElement.style.setProperty('--initial-loader-color', primaryColor)
+  </script>
+</body>
+
+</html>
