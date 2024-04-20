@@ -34,8 +34,8 @@ export const useUserStore = defineStore('user', () => {
     },
   )
 
-  const clientId = ref<string>('154703403887-n2mop1tu6kd5j2cai1mvsa5jqkidroja.apps.googleusercontent.com')
-  const clientSecret = ref<string>('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')
+  const clientId = ref<string>(import.meta.env.VITE_APP_GOOGLE_CLIENT_ID)
+  const clientSecret = ref<string>(import.meta.env.VITE_APP_GOOGLE_CLIENT_SECRET)
 
   const userData = ref<UserInfo>(dummyData.value)
 
