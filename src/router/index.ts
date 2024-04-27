@@ -81,15 +81,15 @@ const router = createRouter({
   ],
 })
 
-router.beforeEach((to, from, next) => {
-  localStorage.setItem('activeTab', to?.name)
-  if (to.name !== 'Login' && !checkAuth())
-    next({ name: 'Login' })
-  else if (checkAuth() && (to.name === 'Login' || to.name === 'Register'))
-    next({ name: 'Home' })
-  else
-    next()
-})
+// router.beforeEach((to, from, next) => {
+//   localStorage.setItem('activeTab', to?.name)
+//   if (to.name !== 'Login' && !checkAuth())
+//     next({ name: 'Login' })
+//   else if (checkAuth() && (to.name === 'Login' || to.name === 'Register'))
+//     next({ name: 'Home' })
+//   else
+//     next()
+// })
 
 router.afterEach(() => {
   // progress?.finish()
