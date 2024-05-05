@@ -33,3 +33,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+Add `VITE_APP_GOOGLE_AUTH_ID`, `VITE_APP_GOOGLE_CLIENT_ID` and `VITE_APP_GOOGLE_CLIENT_SECRET` in `.env` file, get these from google API sites.
